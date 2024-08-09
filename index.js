@@ -6,3 +6,11 @@ app.get('/', function (req, res) {
 });
 
 app.listen(3000);
+
+app.post("/Pessoa/Cadastrar", function(req, res) {
+    res.json({
+        status: "OK",
+        message: "Pessoa Cadastrada"
+    }
+    )
+})
