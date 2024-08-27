@@ -1,0 +1,2 @@
+SELECT DATA_FORMAT(a.data_Cadastro,'d/m/y')
+FROM alunos a WHERE a.data_Cadastro > SUB_DAY(NOW(),5)
